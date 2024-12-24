@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #333;
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.file-content {
+    margin-top: 20px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 4px;
+    overflow-x: auto;
+    word-wrap: break-word;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
